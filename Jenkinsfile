@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("mannec6/PHPApplicaton")
+        app = docker.build("mannec6/myphpapp")
     }
 
     stage('Test image') {
